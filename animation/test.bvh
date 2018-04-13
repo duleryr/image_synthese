@@ -1,0 +1,28 @@
+HIERARCHY
+ROOT hips_dup
+{
+	OFFSET 38.994835 108.019676 230.402130
+	CHANNELS 6 Xposition Yposition Zposition Zrotation Yrotation Xrotation
+	JOINT l_hip_dup
+	{
+	    OFFSET 0.000004 -3.481765 12.994138
+	    CHANNELS 3 Zrotation Yrotation Xrotation
+	    End l_toes_End_dup
+	    {
+	        OFFSET 0.000000 0.000003 9.999998
+		}
+	}
+	JOINT spine1_dup
+	{
+		OFFSET 0.000000 0.099998 0.000000
+		CHANNELS 3 Zrotation Yrotation Xrotation
+		End spine2_dup
+		{
+			OFFSET 0.000001 10.421844 0.000000
+		}
+	}
+}
+MOTION
+Frames: 1
+Frame Time: 0.041667
+43.464	106.490	421.095	-2.025	-179.668	-4.478	0.000	0.000	0.000	-1.375	3.947	6.987
